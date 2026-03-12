@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="party" version="1.0">
+
+    <resource-location type="entity" location="entity"/>
+    <resource-location type="data" location="data"/>
+
+</component>
