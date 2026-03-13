@@ -3,5 +3,5 @@
 
     <resource-location type="entity" location="entity"/>
     <resource-location type="data" location="data"/>
-
+<!--    <resource-location type="screen" location="screen"/>-->
 </component>
