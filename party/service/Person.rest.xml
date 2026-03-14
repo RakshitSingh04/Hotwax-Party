@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rest name="Person" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="http://moqui.org/xsd/rest-api-2.1.xsd">
+
+    <resource name="person" require-authentication="anonymous-all">
+
+        <method type="post" require-authentication="false">
+            <service name="party.PersonServices.create#Person"/>
+        </method>
+    </resource>
+</rest>

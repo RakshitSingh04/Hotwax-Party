@@ -7,7 +7,7 @@
         <field name="partyTypeEnumId" type="id"/>
         <field name="createdDate" type="date-time"/>
 
-        <relationship type="one" related="moqui.basic.Enumeration" title="PartyType">
+        <relationship type="one" related="moqui.basic.Enumeration" short-alias="pT" title="PartyType">
             <key-map field-name="partyTypeEnumId"/>
         </relationship>
         <seed-data>
